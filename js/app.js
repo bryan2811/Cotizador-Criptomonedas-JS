@@ -1,3 +1,6 @@
+// API
+const cotizador = new API('3ab0be852ffb2c92fbbe222a10b0d88c017764b29e89caaba09bae03cafef756');
+
 // Instanciando las clases
 const ui = new Interfaz()
 
