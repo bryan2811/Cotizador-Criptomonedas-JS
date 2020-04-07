@@ -1,4 +1,5 @@
-
+// Instanciando las clases
+const ui = new Interfaz()
 
 // Leer el formulario
 const formulario = document.querySelector('#formulario');
@@ -18,7 +19,7 @@ formulario.addEventListener('submit', (e) => {
     // Comprobar que ambos campos tengan algo seleccionado
     if (divisaSeleccionada === '' || criptoMonedaSeleccionada === '') {
         // Arrojar una alerta de error
-        
+        ui.mostrarMensaje('Ambos Campos Son Obligatorios', 'alert bg-danger text-center');
     } else {
         // Todo bien, consultar la API
 
